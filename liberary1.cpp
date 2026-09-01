@@ -2,7 +2,8 @@
 #include<string>
 
 using namespace std ;
-int main(){
+int main();
+{
   int id1,id2,id3;
 string title1,title2,title3;
 
