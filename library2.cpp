@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+int main();
 {
   int book[5];
 int searchID;
@@ -23,5 +23,5 @@ return 0;
 }
 }
 cout << "Book not found ";
-retrun 0;
+return 0;
 }
