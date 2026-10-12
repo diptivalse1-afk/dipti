@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+void menu() {
+  int chocice;
+cout<<"\nn=======RESTAURANT MENU=======;
+cout <<"\n1.PIZZA";
+cout << "\n2.BURGER";
+cout << "\n3.PASTA";
+cout << "n4.EXIST";
+
+cout << "\nEnter your chocices :";
+cin >> choice ;
+
+if (choice == 1) {
+cout << "Your are selected Pizza ";
+menu() ;
+}
+
+else if (choice == 2)
+{
+cout << "YOU selected Burger :";
+menu();
+}
+
+else if (choice == 3)
+{
+cout << "YOU selected Pasta :";
+menu();
+}
+
+else if (choice == 4)
+{
+cout << "\n Thank you  :";
+}
+
+else {
+cout << "\nInvalid chocie ";
+menu() ;
+}
+int main () {
+  menu();
+return 0;
+}
+
+
+
+
+
+
